@@ -741,8 +741,8 @@ class _HueRingPickerState extends State<HueRingPicker> {
                     child: ColorPickerInput(
                       currentHsvColor.toColor(),
                       (Color color) {
-                        widget.onColorChanged(currentHsvColor.toColor());
                         setState(() => currentHsvColor = HSVColor.fromColor(color));
+                        widget.onColorChanged(currentHsvColor.toColor());
                       },
                       enableAlpha: widget.enableAlpha,
                       embeddedText: true,
@@ -785,8 +785,8 @@ class _HueRingPickerState extends State<HueRingPicker> {
                     ColorPickerInput(
                       currentHsvColor.toColor(),
                       (Color color) {
-                        widget.onColorChanged(currentHsvColor.toColor());
                         setState(() => currentHsvColor = HSVColor.fromColor(color));
+                        widget.onColorChanged(currentHsvColor.toColor());
                       },
                       enableAlpha: widget.enableAlpha,
                       embeddedText: true,
