@@ -746,6 +746,7 @@ class _HueRingPickerState extends State<HueRingPicker> {
                       },
                       enableAlpha: widget.enableAlpha,
                       embeddedText: true,
+                      disable: true,
                     ),
                   ),
                 ),
