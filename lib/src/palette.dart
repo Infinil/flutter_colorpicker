@@ -944,7 +944,7 @@ class ColorPickerInput extends StatefulWidget {
     Key? key,
     this.enableAlpha = true,
     this.embeddedText = false,
-    this.disable = false,
+    this.disable = true,
   }) : super(key: key);
 
   final Color color;
